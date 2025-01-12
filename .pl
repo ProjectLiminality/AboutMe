@@ -3,5 +3,8 @@
   "dateModified": "",
   "type": "idea",
   "interactions": 0,
-  "relatedNodes": []
+  "relatedNodes": [],
+  "dreamsong": null,
+  "email": "",
+  "novelSubmodules": []
 }
