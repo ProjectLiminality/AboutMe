@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Educational Content Creator',
             company: 'Civilization Research Institute',
             period: '2021-2022',
-            details: 'Designed and produced visual content to simplify complex topics in systemic change. Collaborated with Daniel Schmachtenberger and Zach Stein's team.'
+            details: 'Designed and produced visual content to simplify complex topics in systemic change. Collaborated with Daniel Schmachtenberger and Zach Stein\'s team.'
         },
         {
             title: 'Project Liminality | Founder',
