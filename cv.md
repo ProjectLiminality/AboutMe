@@ -2,7 +2,7 @@
 
 ## Contact Information
 - Email: david.rug98@icloud.com
-- Phone: +4915738080234
+- Phone: +49-157-3808-0234
 - Location: Vila Verde, Portugal
 - Address: Rua Senhor do Bonfim 341, 4730-190 Goães, VVD
 - LinkedIn: linkedin.com/in/david-rug-748946192
