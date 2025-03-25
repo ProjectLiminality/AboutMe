@@ -2,9 +2,9 @@
 
 ## Contact Information
 - Email: david.rug98@icloud.com
-- Phone: +49-160-4329513
-- Location: Heidelberg, Germany
-- Address: Römerstraße 76, 69115 Heidelberg
+- Phone: +4915738080234
+- Location: Vila Verde, Portugal
+- Address: Rua Senhor do Bonfim 341, 4730-190 Goães, VVD
 - LinkedIn: linkedin.com/in/david-rug-748946192
 
 ## Summary
@@ -62,10 +62,11 @@ Creative communicator and systems thinker specializing in visual storytelling to
 - French (Basic)
 
 ## Portfolio & Links
-- YouTube Channel: [Project Liminality]
-- GitHub: [Animation Libraries & Tools]
-- Project Liminality Software: [Collective Intelligence Protocol]
-- LinkedIn: linkedin.com/in/david-rug-748946192
+- YouTube Channel: https://www.youtube.com/@projectliminality2932
+- Liminal Consulting: https://projectliminality.github.io/LiminalConsultingWeb3/
+- GitHub: https://github.com/ProjectLiminality
+- Project Liminality Software: https://github.com/ProjectLiminality/ProjectLiminalityMVP
+- LinkedIn: https://linkedin.com/in/david-rug-748946192
 
 ## Areas of Interest
 - Systems Change & Meta-Crisis Solutions
