@@ -65,20 +65,38 @@ document.addEventListener('DOMContentLoaded', () => {
     // Skills Data
     const skills = [
         {
-            category: 'Programming',
-            items: ['Python (3D animation libraries)', 'React Three Fiber', 'Electron', 'Neural Networks (PyTorch)']
+            category: 'Programming & AI',
+            items: [
+                'Python (Data Analysis, Custom Libraries)',
+                'Manim & Dreamtalk Animation Frameworks',
+                'Neural Networks (PyTorch)',
+                'AI-Assisted Full Stack Development'
+            ]
         },
         {
-            category: 'Visualization',
-            items: ['3D animation', 'Visual metaphor design']
+            category: 'Professional Software',
+            items: [
+                'Cinema 4D (3D Animation & Modeling)',
+                'Final Cut Pro (Video Production)',
+                'Keynote (Advanced Animation Engine)'
+            ]
         },
         {
-            category: 'Core Competencies',
-            items: ['Visual Storytelling', 'Complex Systems Communication', 'First Principles Thinking']
+            category: 'Visual Communication',
+            items: [
+                'Visual Metaphor Design',
+                'Educational Animation',
+                'Complex Systems Visualization'
+            ]
         },
         {
-            category: 'Physics',
-            items: ['Quantum optics', 'State tomography']
+            category: 'Methodologies',
+            items: [
+                'First Principles Thinking',
+                'Dialectical Analysis',
+                'Systems Problem Solving',
+                'Complex Systems Communication'
+            ]
         }
     ];
 
