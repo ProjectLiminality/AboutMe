@@ -28,14 +28,14 @@ body {
 .profile-image {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 200px;
     height: auto;
     border-radius: 5px;
 }
 
 header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 3rem;
     padding-bottom: 2rem;
 }
@@ -68,7 +68,7 @@ h2 {
 
 .contact-info {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 30px;
     flex-wrap: wrap;
     margin: 20px 0;
