@@ -40,18 +40,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 title: "P2P Foundation"
             }
         },
-        {
-            title: 'Bachelor Research Project',
-            company: 'Leiden University',
-            period: 'February 2020 - June 2020',
-            details: `• Worked in research group in quantum optics department
-• Developed novel approach to quantum state tomography using deep learning
-• Built neural networks from scratch using PyTorch`
-        }
     ];
 
     // Education Data
     const education = [
+        {
+            degree: 'Bachelor Research Project in Quantum Optics',
+            institution: 'Leiden University',
+            period: 'February 2020 - June 2020',
+            details: 'Developed novel approach to quantum state tomography using deep learning and neural networks (PyTorch)'
+        },
         {
             degree: 'B.Sc. in Physics',
             institution: 'Heidelberg University',
@@ -111,6 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="education-item">
                 <h3>${item.degree} | ${item.institution}</h3>
                 <div class="date">${item.period}</div>
+                ${item.details ? `<p>${item.details}</p>` : ''}
             </div>
         `;
     });
