@@ -88,9 +88,11 @@ document.addEventListener('DOMContentLoaded', () => {
     experience.forEach(item => {
         experienceContainer.innerHTML += `
             <div class="experience-item">
-                <h3>${item.title}${item.company ? ` | ${item.company}` : ''}</h3>
-                <div class="date">${item.period}</div>
-                <p>${item.details}</p>
+                <div class="experience-content">
+                    <h3>${item.title}${item.company ? ` | ${item.company}` : ''}</h3>
+                    <div class="date">${item.period}</div>
+                    <p>${item.details}</p>
+                </div>
                 ${item.testimonial ? `
                     <div class="testimonial">
                         "${item.testimonial.text}"
