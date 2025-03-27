@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             details: `• Designed and produced visual content to simplify complex topics in systemic change
 • Adviced on communication strategies`,
             testimonial: {
-                text: "David's work is remarkable for its clarity and evocativeness. He is able to work with extremely abstract and complex ideas and then bring them into explanatory and aesthetic forms that greatly help with intuitive understanding. As a visual storyteller his skills are world class",
+                text: "David's work is remarkable for its clarity and evocativeness.\nHe is able to work with extremely abstract and complex ideas and then bring them into explanatory and aesthetic forms that greatly help with intuitive understanding. As a visual storyteller his skills are world class",
                 author: "Zak Stein",
                 title: "Co-founder, Civilization Research Institute, Consilience Project"
             }
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 • Created YouTube channel showcasing animated explanations of complex concepts
 • Managing open-source repositories for visualization tools and educational content`,
             testimonial: {
-                text: "Our civilization, and its democratic deliberation potential, is facing a paradox: the power of centralized institutions is weakening, but its potential peer to peer replacements are as yet too fragmented and disorienting to carry public debate. Project Liminality is working on potentially important solutions: the use of visual metaphors to catalize broader conversations. Check it out.",
+                text: "The power of centralized institutions is weakening, but its potential peer to peer replacements are as yet too fragmented and disorienting to carry public debate. Project Liminality is working on potentially important solutions: the use of visual metaphors to catalize broader conversations. Check it out.",
                 author: "Michel Bauwens",
                 title: "P2P Foundation"
             }
