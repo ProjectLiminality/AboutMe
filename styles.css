@@ -93,6 +93,11 @@ section {
     margin-bottom: 2rem;
 }
 
+.experience-item p {
+    white-space: pre-line;
+    padding-left: 1rem;
+}
+
 .experience-item h3, .education-item h3 {
     color: var(--white);
     margin-bottom: 0.5rem;

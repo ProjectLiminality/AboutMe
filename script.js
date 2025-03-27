@@ -5,25 +5,34 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Visual Storytelling & Systems Change Consultant',
             company: 'Liminal Consulting',
             period: '2022-Present',
-            details: 'Created animated videos and educational materials explaining complex systemic change concepts. Developed Python library for 3D animations. Provided consulting services focused on visual metaphors for high-profile organizations.'
+            details: `• Created animated videos and educational materials explaining complex systemic change concepts
+• Developed Python library for 3D animations
+• Provided consulting services focused on visual metaphors for high-profile organizations`
         },
         {
             title: 'Educational Content Creator',
             company: 'Civilization Research Institute',
             period: 'April 2024 - November 2024',
-            details: 'Designed and produced visual content to simplify complex topics in systemic change. Collaborated with Daniel Schmachtenberger and Zach Stein\'s team. Created educational materials through visual metaphors. Received strong testimonials for visualization work.'
+            details: `• Designed and produced visual content to simplify complex topics in systemic change
+• Collaborated with Daniel Schmachtenberger and Zach Stein's team
+• Created educational materials through visual metaphors
+• Received strong testimonials for visualization work`
         },
         {
             title: 'Project Liminality | Founder',
             company: '',
             period: '2021-Present',
-            details: 'Developing collective intelligence communication protocol. Built prototype using React Three Fiber and Electron. Created YouTube channel showcasing animated explanations of complex concepts. Managing open-source repositories for visualization tools and educational content.'
+            details: `• Developing collective intelligence communication protocol
+• Built prototype using React Three Fiber and Electron
+• Created YouTube channel showcasing animated explanations of complex concepts
+• Managing open-source repositories for visualization tools and educational content`
         },
         {
             title: 'Bachelor Research Project',
             company: 'Leiden University',
             period: 'February 2020 - June 2020',
-            details: 'Worked in research group in quantum optics department. Developed novel approach employing neural networks for quantum state tomography.'
+            details: `• Worked in research group in quantum optics department
+• Developed novel approach employing neural networks for quantum state tomography`
         }
     ];
 
