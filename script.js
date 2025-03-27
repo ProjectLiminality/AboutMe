@@ -61,12 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ];
 
-    // Languages Data
-    const languages = [
-        { language: 'German', level: 'Native' },
-        { language: 'English', level: 'Advanced' },
-        { language: 'French', level: 'Basic' }
-    ];
 
     // Render Experience
     const experienceContainer = document.querySelector('.experience-items');
@@ -104,14 +98,4 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
     });
 
-    // Render Languages
-    const languagesContainer = document.querySelector('.language-items');
-    languages.forEach(item => {
-        languagesContainer.innerHTML += `
-            <div class="language-item">
-                <span class="language">${item.language}</span>
-                <span class="level">(${item.level})</span>
-            </div>
-        `;
-    });
 });
