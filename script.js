@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'Educational Content Creator',
             company: 'Civilization Research Institute',
-            period: '2021-2022',
+            period: '2021-2024',
             details: 'Designed and produced visual content to simplify complex topics in systemic change. Collaborated with Daniel Schmachtenberger and Zach Stein\'s team. Created educational materials through visual metaphors. Received strong testimonials for visualization work.'
         },
         {
