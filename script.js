@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'Project Liminality | Founder',
             company: '',
-            period: '2019-Present',
+            period: '2021-Present',
             details: 'Developing collective intelligence communication protocol. Built prototype using React Three Fiber and Electron. Created YouTube channel showcasing animated explanations of complex concepts. Managing open-source repositories for visualization tools and educational content.'
         },
         {
