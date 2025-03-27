@@ -65,38 +65,26 @@ document.addEventListener('DOMContentLoaded', () => {
     // Skills Data
     const skills = [
         {
-            category: 'Core Expertise',
-            items: [
-                'Visual Storytelling & Metaphor Design',
-                'Systems Thinking & Analysis',
-                'Educational Content Creation',
-                'Complex Concept Communication'
-            ]
-        },
-        {
-            category: 'Technical Skills',
-            items: [
-                'Python Development (Custom Libraries)',
-                'Deep Learning (PyTorch)',
-                'Animation Frameworks (Manim, DreamTalk)',
-                'React Three Fiber & Electron'
-            ]
-        },
-        {
-            category: 'Creative Tools',
+            category: 'Visual Communication',
             items: [
                 'Cinema 4D (Procedural Animation)',
-                'Final Cut Pro (Video Production)',
-                'Keynote (Advanced Animation)',
-                '3D Visualization & Modeling'
+                'Visual Storytelling & Metaphor Design',
+                'Educational Content Creation'
             ]
         },
         {
-            category: 'Research & Analysis',
+            category: 'Programming',
             items: [
-                'First Principles Thinking',
+                'Python (Custom Animation Libraries)',
+                'Deep Learning (PyTorch)',
+                'React Three Fiber'
+            ]
+        },
+        {
+            category: 'Systems Thinking',
+            items: [
                 'Meta-Crisis Analysis',
-                'Systems Change Strategy',
+                'First Principles Thinking',
                 'Knowledge Transfer Systems'
             ]
         }
