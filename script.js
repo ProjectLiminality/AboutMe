@@ -65,37 +65,39 @@ document.addEventListener('DOMContentLoaded', () => {
     // Skills Data
     const skills = [
         {
-            category: 'Programming & AI',
+            category: 'Core Expertise',
             items: [
-                'Python (Data Analysis, Custom Libraries)',
-                'Manim & Dreamtalk Animation Frameworks',
-                'Neural Networks (PyTorch)',
-                'AI-Assisted Full Stack Development'
+                'Visual Storytelling & Metaphor Design',
+                'Systems Thinking & Analysis',
+                'Educational Content Creation',
+                'Complex Concept Communication'
             ]
         },
         {
-            category: 'Professional Software',
+            category: 'Technical Skills',
             items: [
-                'Cinema 4D (3D Animation & Modeling)',
+                'Python Development (Custom Libraries)',
+                'Deep Learning (PyTorch)',
+                'Animation Frameworks (Manim, DreamTalk)',
+                'React Three Fiber & Electron'
+            ]
+        },
+        {
+            category: 'Creative Tools',
+            items: [
+                'Cinema 4D (Procedural Animation)',
                 'Final Cut Pro (Video Production)',
-                'Keynote (Advanced Animation Engine)'
+                'Keynote (Advanced Animation)',
+                '3D Visualization & Modeling'
             ]
         },
         {
-            category: 'Visual Communication',
-            items: [
-                'Visual Metaphor Design',
-                'Educational Animation',
-                'Complex Systems Visualization'
-            ]
-        },
-        {
-            category: 'Methodologies',
+            category: 'Research & Analysis',
             items: [
                 'First Principles Thinking',
-                'Dialectical Analysis',
-                'Systems Problem Solving',
-                'Complex Systems Communication'
+                'Meta-Crisis Analysis',
+                'Systems Change Strategy',
+                'Knowledge Transfer Systems'
             ]
         }
     ];
