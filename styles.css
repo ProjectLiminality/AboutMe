@@ -22,6 +22,16 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+}
+
+.profile-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
 }
 
 header {
