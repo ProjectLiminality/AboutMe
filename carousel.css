@@ -1,0 +1,98 @@
+#canvas-container {
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  position: relative;
+}
+
+.examples-section {
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  min-height: auto;
+  background: black;
+}
+
+.examples-section h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1800px;  /* Increased to match testimonials carousel */
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(-33.33%);
+}
+
+.carousel-item {
+  min-width: 33.333333%;
+  flex: 0 0 33.333333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  transform: scale(0.625);  /* Increased from 0.5 by 25% */
+  transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transform: scale(1.5);  /* Increased from 1.0 by 50% */
+}
+
+.carousel-item.prev,
+.carousel-item.next {
+  opacity: 0.5;
+  transform: scale(0.625);  /* Increased from 0.5 by 25% */
+}
+
+.media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.media-title {
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 0;
+  width: 33.33%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  color: transparent;
+}
+
+.carousel-button.prev {
+  left: 0;
+}
+
+.carousel-button.next {
+  right: 0;
+}
