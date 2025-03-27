@@ -99,7 +99,7 @@ section {
 }
 
 .experience-item .date, .education-item .date {
-    color: var(--white);
+    color: var(--blue);
     font-style: italic;
     margin-bottom: 0.5rem;
 }
