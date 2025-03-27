@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             company: 'Civilization Research Institute',
             period: 'April 2024 - November 2024',
             details: `• Designed and produced visual content to simplify complex topics in systemic change
-• Adviced on communication strategies`,
+• Advised on communication strategies`,
             testimonial: {
                 text: "David's work is remarkable for its clarity and evocativeness.\nHe is able to work with extremely abstract and complex ideas and then bring them into explanatory and aesthetic forms that greatly help with intuitive understanding.\nAs a visual storyteller his skills are world class.",
                 author: "Zak Stein",
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 • Created YouTube channel showcasing animated explanations of complex concepts
 • Managing open-source repositories for visualization tools and educational content`,
             testimonial: {
-                text: "The power of centralized institutions is weakening, but its potential peer to peer replacements are as yet too fragmented and disorienting to carry public debate.\nProject Liminality is working on potentially important solutions: the use of visual metaphors to catalize broader conversations.\nCheck it out.",
+                text: "The power of centralized institutions is weakening, but its potential peer to peer replacements are as yet too fragmented and disorienting to carry public debate.\nProject Liminality is working on potentially important solutions: \nthe use of visual metaphors to catalize broader conversations.\nCheck it out.",
                 author: "Michel Bauwens",
                 title: "P2P Foundation"
             }
