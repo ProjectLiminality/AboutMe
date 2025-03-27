@@ -19,7 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
             period: '2022-Present',
             details: `• Created animated videos and educational materials explaining complex systemic change concepts
 • Developed Python library for 3D animations
-• Provided consulting services focused on visual metaphors for high-profile organizations`
+• Provided consulting services focused on visual metaphors for high-profile organizations`,
+            testimonial: {
+                text: "David's capability to explain modern age concepts with visual clarity is unparalleled. His clear narrative style and eye-pleasing graphic animations are a powerful tool for the communication of your world-changing ideas.",
+                author: "Jeff Emmett",
+                title: "Mycopunk"
+            }
         },
         {
             title: 'Project Liminality | Founder',
@@ -28,7 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
             details: `• Developing collective intelligence communication protocol
 • Built prototype using React Three Fiber and Electron
 • Created YouTube channel showcasing animated explanations of complex concepts
-• Managing open-source repositories for visualization tools and educational content`
+• Managing open-source repositories for visualization tools and educational content`,
+            testimonial: {
+                text: "Our civilization, and its democratic deliberation potential, is facing a paradox: the power of centralized institutions is weakening, but its potential peer to peer replacements are as yet too fragmented and disorienting to carry public debate. Project Liminality is working on potentially important solutions: the use of visual metaphors to catalize broader conversations. Check it out.",
+                author: "Michel Bauwens",
+                title: "P2P Foundation"
+            }
         },
         {
             title: 'Bachelor Research Project',
