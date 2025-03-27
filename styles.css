@@ -56,9 +56,23 @@ h2 {
     color: var(--red);
 }
 
-.contact-info span {
-    margin: 0 1rem;
-    color: var(--blue);
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-info img {
+    height: 30px;
+    vertical-align: middle;
 }
 
 section {
