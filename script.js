@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             details: `• Designed and produced visual content to simplify complex topics in systemic change
 • Adviced on communication strategies`,
             testimonial: {
-                text: "David's work is remarkable for its clarity and evocativeness.\nHe is able to work with extremely abstract and complex ideas and then bring them into explanatory and aesthetic forms that greatly help with intuitive understanding. As a visual storyteller his skills are world class",
+                text: "David's work is remarkable for its clarity and evocativeness.\nHe is able to work with extremely abstract and complex ideas and then bring them into explanatory and aesthetic forms that greatly help with intuitive understanding.\nAs a visual storyteller his skills are world class.",
                 author: "Zak Stein",
                 title: "Co-founder, Civilization Research Institute, Consilience Project"
             }
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 • Developed Python library for 3D animations
 • Provided consulting services focused on visual metaphors for high-profile organizations`,
             testimonial: {
-                text: "David's capability to explain modern age concepts with visual clarity is unparalleled. His clear narrative style and eye-pleasing graphic animations are a powerful tool for the communication of your world-changing ideas.",
+                text: "David's capability to explain modern age concepts with visual clarity is unparalleled.\nHis clear narrative style and eye-pleasing graphic animations are a powerful tool for the communication of your world-changing ideas.",
                 author: "Jeff Emmett",
                 title: "Mycopunk"
             }
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 • Created YouTube channel showcasing animated explanations of complex concepts
 • Managing open-source repositories for visualization tools and educational content`,
             testimonial: {
-                text: "The power of centralized institutions is weakening, but its potential peer to peer replacements are as yet too fragmented and disorienting to carry public debate. Project Liminality is working on potentially important solutions: the use of visual metaphors to catalize broader conversations. Check it out.",
+                text: "The power of centralized institutions is weakening, but its potential peer to peer replacements are as yet too fragmented and disorienting to carry public debate.\nProject Liminality is working on potentially important solutions: the use of visual metaphors to catalize broader conversations.\nCheck it out.",
                 author: "Michel Bauwens",
                 title: "P2P Foundation"
             }
