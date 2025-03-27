@@ -6,7 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
             company: 'Civilization Research Institute',
             period: 'April 2024 - November 2024',
             details: `• Designed and produced visual content to simplify complex topics in systemic change
-• Adviced on communication strategies`
+• Adviced on communication strategies`,
+            testimonial: {
+                text: "David's work is remarkable for its clarity and evocativeness. He is able to work with extremely abstract and complex ideas and then bring them into explanatory and aesthetic forms that greatly help with intuitive understanding. As a visual storyteller his skills are world class",
+                author: "Zak Stein",
+                title: "Co-founder, Civilization Research Institute, Consilience Project"
+            }
         },
         {
             title: 'Visual Storytelling & Systems Change Consultant',
@@ -78,6 +83,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>${item.title}${item.company ? ` | ${item.company}` : ''}</h3>
                 <div class="date">${item.period}</div>
                 <p>${item.details}</p>
+                ${item.testimonial ? `
+                    <div class="testimonial">
+                        "${item.testimonial.text}"
+                        <div class="testimonial-author">${item.testimonial.author}</div>
+                        <div class="testimonial-title">${item.testimonial.title}</div>
+                    </div>
+                ` : ''}
             </div>
         `;
     });
