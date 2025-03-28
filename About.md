@@ -1,0 +1,9 @@
+Driven by a deep curiosity about the patterns shaping our complex world, I use visual storytelling and systems thinking to illuminate pathways toward a more beautiful future.
+
+My Physics background (B.Sc. Heidelberg University, research at Leiden University) honed my analytical skills and first-principles thinking. This foundation, combined with an early passion for CGI and particle simulations, sparked my journey into visual knowledge communication. During my studies, I developed a novel approach to quantum state tomography, merging quantum optics with deep learning (PyTorch). Inspired by the power of animated online education, I also created a custom Python library for advanced 3D visualization to further push the boundaries of science communication.
+
+Since 2020, I've been immersed in the 'GameB' movement and meta-crisis research. This led me to found Project Liminality in 2021, an initiative exploring how to fundamentally improve collective intelligence and knowledge sharing using open-source frameworks, visual storytelling, and insights from indigenous wisdom. Through its dedicated YouTube channel, I create aesthetically pleasing educational content conveying the core intuitions behind today's most important ideas.
+
+Through Liminal Consulting (2022-Present), I partner with leading organizations, including the Civilization Research Institute and others in the regenerative and web3 spaces. I help them structure complex ideas and communicate their unique value using powerful visual metaphors and animations.
+
+My core strength lies in synthesizing diverse concepts—scientific, philosophical, and artistic—and translating them into exceptionally clear visual narratives. I am eager to apply my interdisciplinary expertise—spanning Physics, Programming, First-Principles Thinking, Systems Thinking, and Philosophy—to impactful projects addressing humanity's most pressing challenges.
