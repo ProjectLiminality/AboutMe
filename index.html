@@ -2,139 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0">
-  <title>David Rug - Resume</title>
-  <link rel="stylesheet" href="DreamSong.css">
-  <link rel="stylesheet" href="carousel.css">
-  <link rel="stylesheet" href="testimonials.css">
-  <script src="DreamSong.js" defer></script>
-  <script src="carousel.js" defer></script>
-  <script src="testimonials.js" defer></script>
-  <style>
-    /* CSS Reset and Base Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-      font-size: 25.6px; /* 16px * 1.6 to match 160% zoom */
-    }
-
-    @media (max-width: 768px) {
-      html {
-        font-size: 16px; /* Smaller base font size for mobile */
-      }
-    }
-
-    body {
-      font-size: 1rem;
-      line-height: 1.5;
-      background-color: #000000;
-      color: white;
-    }
-
-    /* Main wrapper styles */
-    .main-wrapper {
-      width: 100vw;
-      max-width: 100%;
-      margin: 0 auto;
-      padding: 0;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      z-index: 1;
-      overflow-x: hidden;
-      align-items: center;
-    }
-      
-    #examples-container::after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 2px;
-      margin: 2rem 0;
-      background: url('media/elements/Seperator.png') no-repeat center center;
-      background-size: 90% auto;
-    }
-    .section-separator {
-      width: 90%;
-      height: auto;
-      margin: 2rem auto;
-      display: block;
-      max-width: 2600px; /* Match the max-width of canvas-container */
-    }
-    #examples-separator {
-      order: 4.5;
-      width: 100%;
-    }
-    header {
-      order: 1;
-    }
-    #canvas-container {
-      order: 2;
-    }
-    #contact-section {
-      order: 3;
-    }
-    #examples-container {
-      order: 4;
-    }
-    #testimonials-container {
-      order: 5;
-    }
-    #contact-section {
-      text-align: center;
-      padding: 2rem 0;
-      background: black;
-      color: white;
-      min-height: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    #contact-section h2 {
-      font-size: 3rem;
-      margin-bottom: 2rem;
-    }
-    
-    #contact-section a {
-      color: white;
-      text-decoration: none;
-      font-size: 1rem;
-      transition: opacity 0.3s ease;
-    }
-    
-    #contact-section a:hover {
-      opacity: 0.8;
-    }
-
-    @media (max-width: 768px) {
-      .main-wrapper {
-        padding: 0 10px;
-      }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adjusted viewport for better responsiveness -->
+  <title>David Rug - Visual Storyteller</title> <!-- Updated Title -->
+  <link rel="stylesheet" href="main.css"> <!-- Consolidated CSS -->
+  <script src="main.js" defer></script> <!-- Consolidated JS -->
+  <!-- Removed inline styles and old script/link tags -->
 </head>
 <body>
   <div class="main-wrapper">
     <header style="text-align: center; margin-bottom: 0; width: 100%; min-height: auto; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem 2rem 0 2rem; position: relative; top: 0;">
-      <a href="static.html" style="position: absolute; top: 2rem; right: 2rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.1); border: 1px solid white; border-radius: 4px; color: white; text-decoration: none; font-size: 1rem; transition: all 0.3s ease;">Professional CV</a>
+      <a href="https://projectliminality.github.io/CV/" style="position: absolute; top: 2rem; right: 2rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.1); border: 1px solid white; border-radius: 4px; color: white; text-decoration: none; font-size: 1rem; transition: all 0.3s ease;">Professional CV</a>
       <h1 style="color: white; font-size: 3rem; margin-bottom: 1.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">David Rug</h1>
       <img src="media/DavidCloseUp.png" style="max-width: 70%; width: auto; height: auto; display: block; margin: 0 auto; object-fit: contain;" alt="David Rug">
       <h2 style="color: white; font-size: 1.5rem; margin-top: 1.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Visual Storyteller, Futurist, Science Communicator, Metacrisis Expert</h2>
     </header>
-    <div id="canvas-container">
+    <div id="canvas-container"> <!-- Consider renaming this ID if it's no longer canvas-related -->
       <img src="media/elements/Seperator.png" alt="Separator" class="section-separator" style="margin-top: 3rem;">
       <!-- Introduction -->
       <div class="container">
-        <img src="media/ClarityBehindComplexity.gif" class="media" alt="Clarity Behind Complexity">
+        <img src="media/ClarityBehindComplexity.gif" class="media" alt="Clarity Behind Complexity" loading="lazy" decoding="async">
         <div class="text">
           From an early age, I've been driven by an endless curiosity to understand the deep patterns behind the complexity of our world, approaching any situation through first-principle thinking with the goal of making the world a better place.
         </div>
@@ -142,7 +28,7 @@
 
       <!-- Early Journey -->
       <div class="container" style="flex-direction: row-reverse">
-        <img src="media/Entropy.gif" class="media" alt="Entropy">
+        <img src="media/Entropy.gif" class="media" alt="Entropy" loading="lazy" decoding="async">
         <div class="text">
           My journey into technology began at age 11 when I started exploring how 3D games worked, leading me to discover CGI and game engines. This early passion for procedural animation systems and physics simulations, combined with my analytical mindset, naturally led me to study physics at Heidelberg University, one of Germany's leading institutions, in September 2017.
         </div>
@@ -184,7 +70,7 @@
       <div class="container">
         <img src="media/ExistentialFrictionLoop.gif" class="media" alt="Existential Friction">
         <div class="text">
-          This led me to deeply researching the underlying drivers of the problems our species is facing today, often termed the "meta-crisis", studying what type of system is required to avoid catastrophic scenarios and transition towards a more sustainable and humane planetary civilization.
+          This led me to deeply explore the root causes of the meta-crisis—the set of interconnected crises facing humanity today. Drawing from my background in physics, complexity science, and consciousness studies, I soon arrived at the key insight that the "physics of communication" underpins all major societal dynamics, rendering it the highest leverage point for holistic transformation.
         </div>
       </div>
 
@@ -192,7 +78,7 @@
       <div class="container" style="flex-direction: row-reverse">
         <img src="media/ProjectLiminalityAnimation.gif" class="media" alt="Project Liminality">
         <div class="text">
-          This research culminated in me founding <a href="https://www.youtube.com/watch?v=YsDNeH9JVV0" target="_blank">Project Liminality</a> in 2021, which fundamentally rethinks how we share and organise around knowledge. The project synthesizes indigenous knowledge systems with open-source software frameworks and visual storytelling to create a novel system for civilizational knowledge transfer. My work has since garnered the attention of key players in the systems change space and led to ongoing collaborations with aligned projects.
+          This research culminated in me founding <a href="https://www.youtube.com/watch?v=YsDNeH9JVV0" target="_blank">Project Liminality</a> in 2021, which fundamentally rethinks how we share and organise around knowledge. The project synthesizes indigenous knowledge systems with open-source software frameworks and visual storytelling to create a novel system for civilizational knowledge transfer. My work has since <a href="https://www.youtube.com/watch?v=mGVeuHPfbVU" target="_blank">garnered the attention of key players</a> in the systems change space and led to ongoing collaborations with aligned projects.
         </div>
       </div>
 
@@ -233,6 +119,7 @@
       <p style="margin-top: 20px;"><img src="media/contact/House.svg" alt="Address" style="height: 30px; vertical-align: middle; margin-right: 15px;">Rua Senhor do Bonfim 341, 4730-190 Goães, VVD, Portugal</p>
       <img src="media/elements/Seperator.png" alt="Separator" class="section-separator">
     </div>
+    <!-- The content for examples and testimonials will be generated by main.js -->
     <div id="examples-container"></div>
     <div id="testimonials-container"></div>
   </div>
